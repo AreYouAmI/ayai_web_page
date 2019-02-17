@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************************************************
+logoはh1の背景で指定。パディングで文字隠し。
+**************************************************/
+header#logo {
+	padding: 0px;
+	margin: 10px;
+}
+header#logo h1 {
+	display:block;
+	height:112px;
+	width:398px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 5px 0px;
+}
+header#logo h1 a {
+	display:block;
+	height:0px;
+	width:398px;
+	background:url(img/logo.png);
+	background-repeat:no-repeat;
+	overflow: hidden;
+	padding: 112px 0px 0px;
+}
+
+p{
+	padding: 0px 10px;
+	text-indent: 10px;
+	margin-top: 5px;
+	line-height: 135%;
+	letter-spacing: 1px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	line-break: strict;
+	font-size: 110%;
+	text-shadow: 1px 1px 2px #bbb;
+}
+
+nav{
+	margin-left:10px;
+	margin-top: 10px;
+}
+nav div{
+	height:55px;
+	padding-bottom:5px;}
+.pad14{ padding-top:14px;
+		padding-left:10px;}
+/**************************************************
+フッターはリンク隠し。
+**************************************************/
+
+footer {
+	background-color:#333;
+    color: #666;
+    text-shadow: 1px 1px #ccc, -1px -1px #000;
+	width:100%;
+	text-align:center;
+	padding: 8px 0px;
+}
+
+footer a:link {
+	text-decoration: none;
+    color: #666;
+	background-color: transparent;
+	cursor: text;
+	text-decoration: none;
+}
+footer a:visited {
+	text-decoration: none;
+    color: #666;
+	background-color: transparent;
+	cursor: text;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+    color: #666;
+	background-color: transparent;
+	cursor: text;
+	text-decoration: none;
+}
+footer a:active {
+	text-decoration: none;
+    color: #666;
+	cursor: text;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+
+#fb  {
+	display:block;
+	height:55px;
+	width:162px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+#fb a {
+	display:block;
+	height:0px;
+	width:162px;
+	background:url(img/icon_fb.png);
+	background-repeat:no-repeat;
+	overflow: hidden;
+	padding: 55px 0px 0px;
+}
+
+/**************************************************
+バナーも一応h3で作成。idで画像を変更。
+**************************************************/
+h3 {
+	display:block;
+	height:50px;
+	width:150px;
+	overflow: hidden;
+	margin: 5px;
+	padding: 0px;
+	border: none;
+	clear: none;
+	float:left;
+}
+h3 a {
+	display:block;
+	height:0px;
+	width:150px;
+	background-repeat:no-repeat;
+	overflow: hidden;
+	padding: 50px 0px 0px;
+}
+
+textarea{ background-color:#EFF;
+margin: 10px 0px ;
+}
+
+ul{ margin-bottom: 10px;
+	font-size: 110%;
+	text-shadow: 1px 1px 2px #bbb;
+}
+li{ margin-bottom: 3px;}
+
+h3 a#b-twi{ background: url(img/banner_twitter.gif);}
+h3 a#b-jap{ background: url(img/banner_jpn.gif);}
+h3 a#b-ypa2{ background: url(img/banner_ypa2.gif);}
+h3 a#b-ypa{ background: url(img/banner_ypa.gif);}
+h3 a#b-kamidan{ background: url(img/banner_kamidan.gif);}
+h3 a#b-asano{ background: url(img/banner_asano.gif);}
+h3 a#b-kbb{ background: url(img/banner_kbb.gif);}
+h3 a#b-ranking{ background: url(img/banner_ranking.gif);}
+h3 a#b-pride{ background: url(img/banner_pride.gif);}
+h3 a#b-dnnet{ background: url(img/banner_dnnet.gif);}
+h3 a#b-otori{ background: url(img/banner_otori.gif);}
+h3 a#b-eo{ background: url(img/banner_eo.jpg);}
+h3 a#b-torisen{ background: url(img/banner_torisen.gif);}
+h3 a#b-okuta{ background: url(img/banner_okuta.gif);}
+h3 a#b-syn{ background: url(img/banner_syn.gif);}
+h3 a#b-mu{ background: url(img/banner_mu.gif);}
+h3 a#b-nz{ background: url(img/banner_nz.gif);}
+h3 a#b-msearch{ background: url(img/banner_msearch.gif);}
+h3 a#b-sdm{ background: url(img/banner_sdm.jpg);}
+h3 a#b-chidori{ background: url(img/banner_chidori.gif);}
+h3 a#b-sjo{ background: url(img/banner_sjo.gif);}
+h3 a#b-dnk{ background: url(img/banner_dnk.gif);}
+h3 a#b-szen{ background: url(img/banner_szen.jpg);}
+h3 a#b-ps{ background: url(img/banner_ps.gif);}
+h3 a#b-word{ background: url(img/banner_word.gif);}
+h3 a#b-create{ background: url(img/banner_create.gif);}
+h3 a#b-yuga{ background: url(img/banner_yuga.gif);}
+h3 a#b-hhp{ background: url(img/banner_hhp.gif);}
+h3 a#b-amn{ background: url(img/banner_amn.gif);}
+h3 a#b-glr{ background: url(img/banner_glr.gif);}
+h3 a#b-ai{ background: url(img/banner_ai.gif);}
+h3 a#b-snk{ background: url(img/banner_snk.gif);}
+h3 a#b-izu{ background: url(img/banner_izu.png);}
